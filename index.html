@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>मेरी मेहंदी</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Laila:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+ <header>
+  <nav>
+    <div class="logo"><img src="images/logo.png" alt=""></div>
+    
+    <!-- Hamburger Icon for mobile -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#services">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Design</a></li>
+      <button class="navCta"><a href="#bookNow">Book Now</a></button>
+    </ul>
+  </nav>
+</header>
+
+
+
+   <section class="hero">
+    <div id="gallary">
+        <div class="page" ></div>
+        <div class="page" ></div>
+        <div class="page" ></div>
+        <div class="page" ></div>
+        <div class="page" ></div>
+        <div class="page" ></div>
+        <div class="page" ></div>
+        <div class="page" ></div>
+        <div class="page" ></div>
+        <div class="page" ></div>
+        <div class="page" ></div>
+        <div class="page" ></div>
+    </div>
+
+    <div class="cta"></div>
+   </section>
+
+
+ 
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="turn.js"></script>
+    <script> $('#gallary').turn({gradients: true, acceleration: true});</script>
+   
+  </body>
+</html>

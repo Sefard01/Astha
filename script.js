@@ -22,8 +22,8 @@ document.addEventListener("click", ()=>{
 const pages = document.querySelectorAll(".page");
 
 const images = [
-    "https://chatgpt.com/backend-api/estuary/content?id=file_000000006b1c71f88d6825ddb3eed23b&ts=491224&p=fs&cid=1&sig=0490cf9f383d92165a173994dc58247947b582d9c87d7f9eabb278fd3ba6cb04&v=0",
-    "https://media.istockphoto.com/id/2196078826/photo/indian-brides-wedding-henna-mehendi-mehndi-hands-close-up.webp?a=1&b=1&s=612x612&w=0&k=20&c=0_RuntCndweiGjyroEXda5MoA7AwxCxKG3TQPOZT644=",
+  "images/cover2.png",
+"https://media.istockphoto.com/id/2196078826/photo/indian-brides-wedding-henna-mehendi-mehndi-hands-close-up.webp?a=1&b=1&s=612x612&w=0&k=20&c=0_RuntCndweiGjyroEXda5MoA7AwxCxKG3TQPOZT644=",
     "https://media.istockphoto.com/id/2247140651/photo/the-image-displays-an-intricate-example-of-mehndi-which-is-a-form-of-temporary-body-art-using.webp?a=1&b=1&s=612x612&w=0&k=20&c=YHnt8-kFtsPntE5taxImUQtF1eSbPZIxdBVUwhM42WM=",
     "https://media.istockphoto.com/id/2233699820/photo/the-image-displays-hands-with-a-fresh-application-of-henna-also-known-as-mehandi.webp?a=1&b=1&s=612x612&w=0&k=20&c=IEBQJ-yPjexuhKfAipi39JEqODHvgwt__Av-0wT77eU=",
     "https://media.istockphoto.com/id/2234267018/photo/intricate-mehndi-design-with-a-circular-floral-pattern-on-the-palm-detailed-fingertip-motifs.webp?a=1&b=1&s=612x612&w=0&k=20&c=xYjAFBuIwx6SWXQv6aQ5truiQY2lJhbt2tWYk30YeXQ=",
@@ -273,6 +273,7 @@ document.body.appendChild(footer);
 document.getElementById("toTop").onclick = ()=>{
   window.scrollTo({top:0, behavior:"smooth"});
 };
+
 
 
 
